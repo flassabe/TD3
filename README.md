@@ -53,7 +53,7 @@ def probability(histo1: NormHisto, histo2: NormHisto) -> float:
 	# Your code
 	pass
 
-def histogram_matching(db: FingerprintDatabase, sample: NormHisto) -> Location:
+def histogram_matching(db: FingerprintDatabase, sample: list[NormHisto]) -> Location:
 	# Your code (use probability)
 	pass
 ```
